@@ -10,3 +10,10 @@ function add() {
 # call add function
 add
 
+function addPassParameter( ){
+    value1=$1
+    value2=$2
+    echo "The sum of $value1 and $value2 is $(($value1+$value2))"
+}
+
+addPassParameter 10 20
